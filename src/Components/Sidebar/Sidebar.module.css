@@ -1,0 +1,19 @@
+.navbarContainer{
+  display: flex;
+  flex-direction: column;
+  /* text-align: left;
+  align-items: flex-start; */
+  justify-content: space-between;
+  height: 40rem;
+  width: 200px;
+  margin-top: 0.5rem;
+}
+
+.navImg{
+    width: 75px;
+}
+
+.navItem{
+    background-color: black;
+    text-align: left;
+}

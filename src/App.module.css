@@ -80,7 +80,7 @@ opacity: 0px;
   opacity: 0.7;
 }
 
-/* .songListContainer{
+.songListContainer{
   width: 432px;
   height: 550px;
   gap: 0px;
@@ -88,7 +88,7 @@ opacity: 0px;
   -ms-overflow-style: none; 
   scrollbar-width: none; 
   display: block;
-} */
+}
 
 /* .songCont {
   display: flex;

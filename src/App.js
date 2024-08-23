@@ -21,7 +21,7 @@ function App() {
   const [isMuted, setIsMuted] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
-  const [backgroundColor, setBackgroundColor] = useState('#000');
+  const [backgroundColor, setBackgroundColor] = useState('');
   const audioRef = useRef(null);
   // const fac = new FastAverageColor();
   useEffect(()=> {

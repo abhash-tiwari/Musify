@@ -23,8 +23,11 @@ function App() {
   },[])
   return (
     <div className="App">
-      <Sidebar />
-      <SongList songs={songs} setCurrentSong={setCurrentSong}/>
+      {songs.map((ele) => (
+        <div key={ele.id}>
+          {ele.artist}
+        </div>
+      ))}
     </div>
   );
 }
